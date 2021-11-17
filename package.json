@@ -1,6 +1,6 @@
 {
   "name": "cesium_ax3d",
-  "version": "1.87.1",
+  "version": "1.87.0",
   "description": "CesiumJS is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin.",
   "homepage": "http://cesium.com/cesiumjs/",
   "license": "Apache-2.0",
@@ -17,11 +17,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CesiumGS/cesium.git"
+    "url": "https://github.com/guosq/cesium_custom.git"
   },
   "bugs": {
     "url": "https://github.com/CesiumGS/cesium/issues",
-    "email": "cesium-dev@googlegroups.com"
+    "email": "gsq@aheadx.com"
   },
   "main": "index.cjs",
   "module": "./Source/Cesium.js",
@@ -115,7 +115,6 @@
     }
   },
   "scripts": {
-    "prepare": "gulp prepare",
     "convertToModules": "gulp convertToModules",
     "start": "node server.cjs",
     "startPublic": "node server.cjs --public",
